@@ -6,14 +6,15 @@ public class EnemyMovement : MonoBehaviour
 {
     public GameObject laser;
     private Rigidbody myLaser;
+
     private CharacterAnimation enemyAnim;
     private Rigidbody myBody;
     public float speed = 5f;
     private Transform playerTarget;
     public float attackDistance = 1f;
-    private float chasePlayerAfterAttack = .25f;
+    private float chasePlayerAfterAttack = 1f;
     private float CurrentAttackTime;
-    private float defaultAttackTime = 1f;
+    private float defaultAttackTime = 2f;
     private bool followPlayer, attackPlayer;
     // Start is called before the first frame update
 
