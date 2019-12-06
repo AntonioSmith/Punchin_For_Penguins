@@ -26,25 +26,26 @@ public class AttackUniversal : MonoBehaviour
         {
             if (isPlayer)
             {
-                Vector3 hitFXPos = OtherHit[0].transform.position;
-                hitFXPos.y += 1.3f;
-
+                //Vector3 hitFXPos = OtherHit[0].transform.position;
+                //hitFXPos.y += 1.3f;
+                
                 if (OtherHit[0].transform.forward.x > 0)
                 {
-                    hitFXPos.x += 0.3f;
+                    //hitFXPos.x += 0.3f;
                 }
                 else if (OtherHit[0].transform.forward.x < 0)
                 {
-                    hitFXPos.x -= 0.3f;
+                    //hitFXPos.x -= 0.3f;
                 }
-                Instantiate(hitFX, hitFXPos, Quaternion.identity);
+                OtherHit[0].transform.up = new Vector3(-600, -56, -20);
+                //Instantiate(hitFX, hitFXPos, Quaternion.identity);
                 if (gameObject.CompareTag(Tags.LEFT_ARM_TAG) || gameObject.CompareTag(Tags.LEFT_LEG_TAG))
                 {
-                    OtherHit[0].GetComponent<HealthScript>().ApplyDamage(damage, true);
+                    //OtherHit[0].GetComponent<HealthScript>().ApplyDamage(damage, true);
                 }
                 else
                 {
-                    OtherHit[0].GetComponent<HealthScript>().ApplyDamage(damage, false);
+                    //OtherHit[0].GetComponent<HealthScript>().ApplyDamage(damage, false);
                 }
             }
         }
@@ -53,18 +54,18 @@ public class AttackUniversal : MonoBehaviour
         {
             if (isPlayer)
             {
-                Vector3 hitFXPos = hit[0].transform.position;
-                hitFXPos.y += 1.3f;
+                //Vector3 hitFXPos = hit[0].transform.position;
+                //hitFXPos.y += 1.3f;
 
                 if (hit[0].transform.forward.x > 0)
                 {
-                    hitFXPos.x += 0.3f;
+                    //hitFXPos.x += 0.3f;
                 }
                 else if (hit[0].transform.forward.x < 0)
                 {
-                    hitFXPos.x -= 0.3f;
+                    //hitFXPos.x -= 0.3f;
                 }
-                Instantiate(hitFX, hitFXPos, Quaternion.identity);
+                //Instantiate(hitFX, hitFXPos, Quaternion.identity);
                 if (gameObject.CompareTag(Tags.LEFT_ARM_TAG) || gameObject.CompareTag(Tags.LEFT_LEG_TAG))
                 {
                     hit[0].GetComponent<HealthScript>().ApplyDamage(damage, true);
