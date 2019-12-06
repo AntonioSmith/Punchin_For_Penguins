@@ -33,6 +33,7 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        FollowTarget();
         myBody.position = new Vector3(myBody.position.x, myBody.position.y, 0.04f);
         BulletUpdate();
         Attack();
