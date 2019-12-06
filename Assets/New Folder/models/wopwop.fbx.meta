@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: 05902a5b54c86cd438573f4275ddf4a6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: group5
+    100002: group6
+    100004: group7
+    100006: ornament_textured_pCube222
+    100008: ornament_textured_pCube223
+    100010: ornament_textured_pCube224
+    100012: ornament_textured_pCube225
+    100014: ornament_textured_pCube226
+    100016: ornament_textured_pCube227
+    100018: pCube219
+    100020: pCube221
+    100022: pCube222
+    100024: pCube228
+    100026: pCube229
+    100028: pCube249
+    100030: pCube423
+    100032: pCube425
+    100034: pCube513
+    100036: pCube514
+    100038: pCube643
+    100040: pCube644
+    100042: pCube645
+    100044: pCube646
+    100046: pCube647
+    100048: pCube648
+    100050: pCube649
+    100052: pCube650
+    100054: pCube651
+    100056: pCube652
+    100058: pCube653
+    100060: pCube654
+    100062: pCube655
+    100064: pCube656
+    100066: pCube657
+    100068: pCube658
+    100070: pCube659
+    100072: pCube660
+    100074: pCube661
+    100076: pCube662
+    100078: pCube663
+    100080: pCube664
+    100082: pCube665
+    100084: pCube666
+    100086: pCube667
+    100088: pCube668
+    100090: pCube669
+    100092: pCube670
+    100094: pCube671
+    100096: pCube672
+    100098: pCube673
+    100100: pCube674
+    100102: pCube675
+    100104: pCube676
+    100106: pCube677
+    100108: pCube678
+    100110: pCube679
+    100112: pCube680
+    100114: pCube681
+    100116: pCube682
+    100118: pCube683
+    100120: pCube684
+    100122: pCube685
+    100124: pCube686
+    100126: pCube687
+    100128: pCube688
+    100130: pCube689
+    100132: pCube690
+    100134: pCube691
+    100136: pCube692
+    100138: pCube693
+    100140: pCube694
+    100142: pCube695
+    100144: pCube696
+    100146: pCube697
+    100148: pCube698
+    100150: pCube699
+    100152: pCube700
+    100154: pCube700 1
+    100156: pCube701
+    100158: pCube701 1
+    100160: pCube702
+    100162: pCube702 1
+    100164: pCube703
+    100166: pCube703 1
+    100168: pCube704
+    100170: pCube704 1
+    100172: pCube705
+    100174: pCube705 1
+    100176: pCube706
+    100178: pCube706 1
+    100180: pCube707
+    100182: pCube707 1
+    100184: pCube708
+    100186: pCube708 1
+    100188: pCube709
+    100190: pCube709 1
+    100192: pCube710
+    100194: pCube710 1
+    100196: pCube711
+    100198: pCube711 1
+    100200: pCube712
+    100202: pCube712 1
+    100204: pCube713
+    100206: pCube713 1
+    100208: pCylinder3
+    100210: pCylinder5
+    100212: pCylinder6
+    100214: pPlane10
+    100216: pPlane5
+    100218: pPlane6
+    100220: pPlane7
+    100222: pPlane8
+    100224: pPlane9
+    100226: pPlane9 1
+    100228: slabmaintextures_pCube433
+    100230: slabmaintextures_pCube434
+    100232: slabmaintextures_pCube435
+    100234: slabmaintextures_pCube436
+    100236: slabmaintextures_pCube437
+    100238: slabmaintextures_pCube438
+    100240: slabmaintextures_pCube439
+    100242: slabmaintextures_pCube440
+    100244: slabmaintextures_pCube441
+    100246: slabmaintextures_pCube441 1
+    100248: slabmaintextures_pCube442
+    100250: slabmaintextures_pCube442 1
+    100252: //RootNode
+    400000: group5
+    400002: group6
+    400004: group7
+    400006: ornament_textured_pCube222
+    400008: ornament_textured_pCube223
+    400010: ornament_textured_pCube224
+    400012: ornament_textured_pCube225
+    400014: ornament_textured_pCube226
+    400016: ornament_textured_pCube227
+    400018: pCube219
+    400020: pCube221
+    400022: pCube222
+    400024: pCube228
+    400026: pCube229
+    400028: pCube249
+    400030: pCube423
+    400032: pCube425
+    400034: pCube513
+    400036: pCube514
+    400038: pCube643
+    400040: pCube644
+    400042: pCube645
+    400044: pCube646
+    400046: pCube647
+    400048: pCube648
+    400050: pCube649
+    400052: pCube650
+    400054: pCube651
+    400056: pCube652
+    400058: pCube653
+    400060: pCube654
+    400062: pCube655
+    400064: pCube656
+    400066: pCube657
+    400068: pCube658
+    400070: pCube659
+    400072: pCube660
+    400074: pCube661
+    400076: pCube662
+    400078: pCube663
+    400080: pCube664
+    400082: pCube665
+    400084: pCube666
+    400086: pCube667
+    400088: pCube668
+    400090: pCube669
+    400092: pCube670
+    400094: pCube671
+    400096: pCube672
+    400098: pCube673
+    400100: pCube674
+    400102: pCube675
+    400104: pCube676
+    400106: pCube677
+    400108: pCube678
+    400110: pCube679
+    400112: pCube680
+    400114: pCube681
+    400116: pCube682
+    400118: pCube683
+    400120: pCube684
+    400122: pCube685
+    400124: pCube686
+    400126: pCube687
+    400128: pCube688
+    400130: pCube689
+    400132: pCube690
+    400134: pCube691
+    400136: pCube692
+    400138: pCube693
+    400140: pCube694
+    400142: pCube695
+    400144: pCube696
+    400146: pCube697
+    400148: pCube698
+    400150: pCube699
+    400152: pCube700
+    400154: pCube700 1
+    400156: pCube701
+    400158: pCube701 1
+    400160: pCube702
+    400162: pCube702 1
+    400164: pCube703
+    400166: pCube703 1
+    400168: pCube704
+    400170: pCube704 1
+    400172: pCube705
+    400174: pCube705 1
+    400176: pCube706
+    400178: pCube706 1
+    400180: pCube707
+    400182: pCube707 1
+    400184: pCube708
+    400186: pCube708 1
+    400188: pCube709
+    400190: pCube709 1
+    400192: pCube710
+    400194: pCube710 1
+    400196: pCube711
+    400198: pCube711 1
+    400200: pCube712
+    400202: pCube712 1
+    400204: pCube713
+    400206: pCube713 1
+    400208: pCylinder3
+    400210: pCylinder5
+    400212: pCylinder6
+    400214: pPlane10
+    400216: pPlane5
+    400218: pPlane6
+    400220: pPlane7
+    400222: pPlane8
+    400224: pPlane9
+    400226: pPlane9 1
+    400228: slabmaintextures_pCube433
+    400230: slabmaintextures_pCube434
+    400232: slabmaintextures_pCube435
+    400234: slabmaintextures_pCube436
+    400236: slabmaintextures_pCube437
+    400238: slabmaintextures_pCube438
+    400240: slabmaintextures_pCube439
+    400242: slabmaintextures_pCube440
+    400244: slabmaintextures_pCube441
+    400246: slabmaintextures_pCube441 1
+    400248: slabmaintextures_pCube442
+    400250: slabmaintextures_pCube442 1
+    400252: //RootNode
+    2100000: lambert2
+    2100002: lambert3
+    2100004: ornament_textured_lambert2
+    2100006: lambert4
+    2100008: lambert5
+    2100010: lambert6
+    2100012: roof_concreat_textured_lambert2
+    2100014: subRoof_Textured_lambert2
+    2100016: lambert7
+    2100018: slabmaintextures_lambert4
+    2100020: lambert10
+    2100022: lambert11
+    2100024: lambert12
+    2100026: lambert13
+    2100028: lambert1
+    2300000: ornament_textured_pCube222
+    2300002: ornament_textured_pCube223
+    2300004: ornament_textured_pCube224
+    2300006: ornament_textured_pCube225
+    2300008: ornament_textured_pCube226
+    2300010: ornament_textured_pCube227
+    2300012: pCube219
+    2300014: pCube221
+    2300016: pCube222
+    2300018: pCube228
+    2300020: pCube229
+    2300022: pCube249
+    2300024: pCube423
+    2300026: pCube425
+    2300028: pCube513
+    2300030: pCube514
+    2300032: pCube643
+    2300034: pCube644
+    2300036: pCube645
+    2300038: pCube646
+    2300040: pCube647
+    2300042: pCube648
+    2300044: pCube649
+    2300046: pCube650
+    2300048: pCube651
+    2300050: pCube652
+    2300052: pCube653
+    2300054: pCube654
+    2300056: pCube655
+    2300058: pCube656
+    2300060: pCube657
+    2300062: pCube658
+    2300064: pCube659
+    2300066: pCube660
+    2300068: pCube661
+    2300070: pCube662
+    2300072: pCube663
+    2300074: pCube664
+    2300076: pCube665
+    2300078: pCube666
+    2300080: pCube667
+    2300082: pCube668
+    2300084: pCube669
+    2300086: pCube670
+    2300088: pCube671
+    2300090: pCube672
+    2300092: pCube673
+    2300094: pCube674
+    2300096: pCube675
+    2300098: pCube676
+    2300100: pCube677
+    2300102: pCube678
+    2300104: pCube679
+    2300106: pCube680
+    2300108: pCube681
+    2300110: pCube682
+    2300112: pCube683
+    2300114: pCube684
+    2300116: pCube685
+    2300118: pCube686
+    2300120: pCube687
+    2300122: pCube688
+    2300124: pCube689
+    2300126: pCube690
+    2300128: pCube691
+    2300130: pCube692
+    2300132: pCube693
+    2300134: pCube694
+    2300136: pCube695
+    2300138: pCube696
+    2300140: pCube697
+    2300142: pCube698
+    2300144: pCube699
+    2300146: pCube700
+    2300148: pCube700 1
+    2300150: pCube701
+    2300152: pCube701 1
+    2300154: pCube702
+    2300156: pCube702 1
+    2300158: pCube703
+    2300160: pCube703 1
+    2300162: pCube704
+    2300164: pCube704 1
+    2300166: pCube705
+    2300168: pCube705 1
+    2300170: pCube706
+    2300172: pCube706 1
+    2300174: pCube707
+    2300176: pCube707 1
+    2300178: pCube708
+    2300180: pCube708 1
+    2300182: pCube709
+    2300184: pCube709 1
+    2300186: pCube710
+    2300188: pCube710 1
+    2300190: pCube711
+    2300192: pCube711 1
+    2300194: pCube712
+    2300196: pCube712 1
+    2300198: pCube713
+    2300200: pCube713 1
+    2300202: pCylinder3
+    2300204: pCylinder5
+    2300206: pCylinder6
+    2300208: pPlane10
+    2300210: pPlane5
+    2300212: pPlane6
+    2300214: pPlane7
+    2300216: pPlane8
+    2300218: pPlane9
+    2300220: pPlane9 1
+    2300222: slabmaintextures_pCube433
+    2300224: slabmaintextures_pCube434
+    2300226: slabmaintextures_pCube435
+    2300228: slabmaintextures_pCube436
+    2300230: slabmaintextures_pCube437
+    2300232: slabmaintextures_pCube438
+    2300234: slabmaintextures_pCube439
+    2300236: slabmaintextures_pCube440
+    2300238: slabmaintextures_pCube441
+    2300240: slabmaintextures_pCube441 1
+    2300242: slabmaintextures_pCube442
+    2300244: slabmaintextures_pCube442 1
+    3300000: ornament_textured_pCube222
+    3300002: ornament_textured_pCube223
+    3300004: ornament_textured_pCube224
+    3300006: ornament_textured_pCube225
+    3300008: ornament_textured_pCube226
+    3300010: ornament_textured_pCube227
+    3300012: pCube219
+    3300014: pCube221
+    3300016: pCube222
+    3300018: pCube228
+    3300020: pCube229
+    3300022: pCube249
+    3300024: pCube423
+    3300026: pCube425
+    3300028: pCube513
+    3300030: pCube514
+    3300032: pCube643
+    3300034: pCube644
+    3300036: pCube645
+    3300038: pCube646
+    3300040: pCube647
+    3300042: pCube648
+    3300044: pCube649
+    3300046: pCube650
+    3300048: pCube651
+    3300050: pCube652
+    3300052: pCube653
+    3300054: pCube654
+    3300056: pCube655
+    3300058: pCube656
+    3300060: pCube657
+    3300062: pCube658
+    3300064: pCube659
+    3300066: pCube660
+    3300068: pCube661
+    3300070: pCube662
+    3300072: pCube663
+    3300074: pCube664
+    3300076: pCube665
+    3300078: pCube666
+    3300080: pCube667
+    3300082: pCube668
+    3300084: pCube669
+    3300086: pCube670
+    3300088: pCube671
+    3300090: pCube672
+    3300092: pCube673
+    3300094: pCube674
+    3300096: pCube675
+    3300098: pCube676
+    3300100: pCube677
+    3300102: pCube678
+    3300104: pCube679
+    3300106: pCube680
+    3300108: pCube681
+    3300110: pCube682
+    3300112: pCube683
+    3300114: pCube684
+    3300116: pCube685
+    3300118: pCube686
+    3300120: pCube687
+    3300122: pCube688
+    3300124: pCube689
+    3300126: pCube690
+    3300128: pCube691
+    3300130: pCube692
+    3300132: pCube693
+    3300134: pCube694
+    3300136: pCube695
+    3300138: pCube696
+    3300140: pCube697
+    3300142: pCube698
+    3300144: pCube699
+    3300146: pCube700
+    3300148: pCube700 1
+    3300150: pCube701
+    3300152: pCube701 1
+    3300154: pCube702
+    3300156: pCube702 1
+    3300158: pCube703
+    3300160: pCube703 1
+    3300162: pCube704
+    3300164: pCube704 1
+    3300166: pCube705
+    3300168: pCube705 1
+    3300170: pCube706
+    3300172: pCube706 1
+    3300174: pCube707
+    3300176: pCube707 1
+    3300178: pCube708
+    3300180: pCube708 1
+    3300182: pCube709
+    3300184: pCube709 1
+    3300186: pCube710
+    3300188: pCube710 1
+    3300190: pCube711
+    3300192: pCube711 1
+    3300194: pCube712
+    3300196: pCube712 1
+    3300198: pCube713
+    3300200: pCube713 1
+    3300202: pCylinder3
+    3300204: pCylinder5
+    3300206: pCylinder6
+    3300208: pPlane10
+    3300210: pPlane5
+    3300212: pPlane6
+    3300214: pPlane7
+    3300216: pPlane8
+    3300218: pPlane9
+    3300220: pPlane9 1
+    3300222: slabmaintextures_pCube433
+    3300224: slabmaintextures_pCube434
+    3300226: slabmaintextures_pCube435
+    3300228: slabmaintextures_pCube436
+    3300230: slabmaintextures_pCube437
+    3300232: slabmaintextures_pCube438
+    3300234: slabmaintextures_pCube439
+    3300236: slabmaintextures_pCube440
+    3300238: slabmaintextures_pCube441
+    3300240: slabmaintextures_pCube441 1
+    3300242: slabmaintextures_pCube442
+    3300244: slabmaintextures_pCube442 1
+    4300000: pCube221
+    4300002: pCube219
+    4300004: pCube222
+    4300006: ornament_textured_pCube222
+    4300008: pCylinder5
+    4300010: pCube228
+    4300012: pCube643
+    4300014: pCube423
+    4300016: pCube229
+    4300018: pCube249
+    4300020: slabmaintextures_pCube433
+    4300022: pCube644
+    4300024: pCube645
+    4300026: pCube646
+    4300028: pCube647
+    4300030: pCube648
+    4300032: pCube649
+    4300034: ornament_textured_pCube223
+    4300036: pCube650
+    4300038: pCube651
+    4300040: pCube652
+    4300042: pCube653
+    4300044: pCube654
+    4300046: pCube655
+    4300048: ornament_textured_pCube224
+    4300050: pPlane6
+    4300052: pPlane7
+    4300054: pPlane8
+    4300056: pPlane10
+    4300058: slabmaintextures_pCube434
+    4300060: pCube656
+    4300062: pCube657
+    4300064: pCube425
+    4300066: pCube658
+    4300068: pCube659
+    4300070: pCube660
+    4300072: pCube661
+    4300074: pCube662
+    4300076: pCube663
+    4300078: pCube664
+    4300080: pCube665
+    4300082: pCube666
+    4300084: pCube667
+    4300086: pCube668
+    4300088: slabmaintextures_pCube435
+    4300090: slabmaintextures_pCube436
+    4300092: pCube669
+    4300094: pCube670
+    4300096: pCube671
+    4300098: pCube672
+    4300100: pCube673
+    4300102: pCube674
+    4300104: pCube675
+    4300106: pCube676
+    4300108: pCube677
+    4300110: pCube678
+    4300112: pCube679
+    4300114: pCube680
+    4300116: ornament_textured_pCube225
+    4300118: pCube681
+    4300120: pCube682
+    4300122: pCube683
+    4300124: slabmaintextures_pCube437
+    4300126: ornament_textured_pCube226
+    4300128: pCube684
+    4300130: pCube685
+    4300132: pCube686
+    4300134: pCube687
+    4300136: ornament_textured_pCube227
+    4300138: pCube688
+    4300140: pCube689
+    4300142: pCube690
+    4300144: pCube691
+    4300146: pCube692
+    4300148: pCube693
+    4300150: pCube694
+    4300152: pCube695
+    4300154: slabmaintextures_pCube438
+    4300156: pCube696
+    4300158: pCube697
+    4300160: pCube698
+    4300162: slabmaintextures_pCube439
+    4300164: pCube699
+    4300166: slabmaintextures_pCube440
+    4300168: pCube713
+    4300170: pCube712
+    4300172: pCube711
+    4300174: pCube710
+    4300176: pCube709
+    4300178: pPlane9
+    4300180: slabmaintextures_pCube442
+    4300182: pCube708
+    4300184: pCube707
+    4300186: pCube706
+    4300188: slabmaintextures_pCube441
+    4300190: pCube705
+    4300192: pCube704
+    4300194: pCube702
+    4300196: pCube703
+    4300198: pCube701
+    4300200: pCube700
+    4300202: pCube713
+    4300204: pCube712
+    4300206: pCube711
+    4300208: pCube710
+    4300210: pCube709
+    4300212: pPlane9
+    4300214: slabmaintextures_pCube442
+    4300216: pCube708
+    4300218: pCube707
+    4300220: pCube706
+    4300222: slabmaintextures_pCube441
+    4300224: pCube705
+    4300226: pCube704
+    4300228: pCube702
+    4300230: pCube703
+    4300232: pCube701
+    4300234: pCube700
+    4300236: pPlane5
+    4300238: pCube514
+    4300240: pCube513
+    4300242: pCylinder3
+    4300244: pCylinder6
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
