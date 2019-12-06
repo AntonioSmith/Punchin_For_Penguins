@@ -24,6 +24,7 @@ public class HealthScript : MonoBehaviour
         if (health <= 0)
         {
             animationScript.Death();
+            FindObjectOfType<audioManager>().Play("enemyDeath");
             hasDied = true;
 
             if (isPlayer)

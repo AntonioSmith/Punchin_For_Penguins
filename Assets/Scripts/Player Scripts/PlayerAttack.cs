@@ -49,14 +49,17 @@ public class PlayerAttack : MonoBehaviour
             if (currentComboState == ComboState.PUNCH_1)
             {
                 playerAnim.Punch1();
+                FindObjectOfType<audioManager>().Play("windWiff");
             }
             if (currentComboState == ComboState.PUNCH_2)
             {
                 playerAnim.Punch2();
+                FindObjectOfType<audioManager>().Play("windWiff1");
             }
             if (currentComboState == ComboState.PUNCH_3)
             {
                 playerAnim.Punch3();
+                FindObjectOfType<audioManager>().Play("windWiff2");
             }
         }
         if (Input.GetKeyDown(KeyCode.X))
@@ -82,10 +85,12 @@ public class PlayerAttack : MonoBehaviour
             if (currentComboState == ComboState.KICK_1)
             {
                 playerAnim.Kick1();
+                FindObjectOfType<audioManager>().Play("windWiff1");
             }
             if (currentComboState == ComboState.KICK_2)
             {
                 playerAnim.Kick2();
+                FindObjectOfType<audioManager>().Play("windWiff2");
             }
         } // combo attacks
     }
